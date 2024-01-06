@@ -1,3 +1,7 @@
+sudo snap install microk8s --classic
+wsl
+microk8s enable storage
+
 microk8s kubectl get pods -n cert-manager
 microk8s kubectl get pods -n istio-system
 microk8s kubectl get pods -n auth
